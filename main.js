@@ -5,6 +5,7 @@ function setTime() {
     document.getElementById("sec").style.transform = `rotate(${s}deg)`;
     document.getElementById("min").style.transform = `rotate(${m}deg)`;
     document.getElementById("hou").style.transform = `rotate(${h}deg)`;
+    document.getElementById("sound").play();
 }
 setInterval(setTime, 1000);
 
